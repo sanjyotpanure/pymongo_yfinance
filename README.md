@@ -1,0 +1,2 @@
+# pymongo_yfinance
+Write a Python program that will store 15-minute candle data of ICICI bank for every 15 minutes from 11.15 AM to 2.15 PM daily for a week. The program should use the Yahoo Finance library to retrieve the real-time data and store it in the database. Due to the 15-minute delay in the Yahoo Finance library, the program should start logging at 11.15 AM to capture data for the 11.00 AM time interval.
